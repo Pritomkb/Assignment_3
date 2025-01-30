@@ -1,5 +1,41 @@
 
-
+.op1{
+    background:url('../IMG/cat-big.png');
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.op1 {
+    background-color: rgb(248, 248, 248);
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .op1 h1 {
+    transition: 0.3s ease;
+  }
+  .op1 h1:hover{
+    color: rgb(235, 145, 145);
+  }
+  .op1 p {
+    transition: 0.5s ease;
+  }
+  .op1 p:hover{
+    color: rgb(29, 209, 110);
+  }
+  
+  @keyframes example {
+    0%  {background-color: rgb(222, 245, 186);}
+    10% {background-color: rgb(250, 250, 151);}
+    20% {background-color: rgb(172, 245, 190);}
+    30% {background-color: rgb(169, 253, 242);}
+    40% {background-color: rgb(169, 215, 253);}
+    50% {background-color: rgb(205, 169, 253);}
+    60% {background-color: rgb(253, 169, 187);}
+    70% {background-color: rgb(253, 196, 169);}
+    80% {background-color: rgb(253, 182, 169);}
+    90% {background-color: rgb(253, 226, 169);}
+    100%{background-color: rgb(169, 253, 197);}
+  }
 
 
 
@@ -20,4 +56,35 @@
     .boo{
         display: none;
     }
+    .op1{
+        margin-top: 10px;
+        background:url('../IMG/cat-big.png');
+        background-repeat: no-repeat;
+        background-position: bottom center ;
+        background-size: 100% 80% ;
+        width: 100%;
+        height: 500px;
+    }
+    .op1 {
+        border-radius: 18px;
+        background-color: rgb(248, 248, 248);
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes example {
+        0%  {background-color: rgb(222, 245, 186);}
+        10% {background-color: rgb(250, 250, 151);}
+        20% {background-color: rgb(172, 245, 190);}
+        30% {background-color: rgb(169, 253, 242);}
+        40% {background-color: rgb(169, 215, 253);}
+        50% {background-color: rgb(205, 169, 253);}
+        60% {background-color: rgb(253, 169, 187);}
+        70% {background-color: rgb(253, 196, 169);}
+        80% {background-color: rgb(253, 182, 169);}
+        90% {background-color: rgb(253, 226, 169);}
+        100%{background-color: rgb(169, 253, 197);}
+      }
+
   } 
