@@ -15,8 +15,9 @@
 
 
 
-/* @media screen and (max-width: 576px) {
-    .bot{
+@media screen and (max-width: 576px) {
+    .bot,
+    .boo{
         display: none;
     }
-  } */
+  } 
