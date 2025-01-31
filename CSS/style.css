@@ -53,7 +53,8 @@
 
 @media screen and (max-width: 576px) {
     .bot,
-    .boo{
+    .boo,
+    .oneh{
         display: none;
     }
     .op1{
@@ -86,5 +87,12 @@
         90% {background-color: rgb(253, 226, 169);}
         100%{background-color: rgb(169, 253, 197);}
       }
+      #nai {
+        display: none;
+    }
+    #dogp,
+    #dogh3 {
+        display: none;
+    }
 
   } 
